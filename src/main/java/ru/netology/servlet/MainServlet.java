@@ -11,8 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 
 public class MainServlet extends HttpServlet {
     private PostController controller;
-    private PostRepository repository;
-    private PostService service;
     private final String getMethod = "GET";
     private final String postMethod = "POST";
     private final String deleteMethod = "DELETE";
